@@ -32,3 +32,7 @@ console.log(lowercase[Math.floor(Math.random() * 26)], numbers[Math.floor(Math.r
 
 //concat all my arrays
 var allCharacters = numbers.concat(lowercase, uppercase, symbols);
+console.log(allCharacters);
+
+//now I can randomize my new array that includes all my arrays
+console.log(allCharacters[Math.floor(Math.random() * 88)]);
