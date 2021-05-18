@@ -26,3 +26,6 @@ console.log(Math.floor(Math.random() * 26))
 
 //now I want to take one of my arrays and randomize it
 console.log(lowercase[Math.floor(Math.random() * 26)])
+
+//all my arrays randomized
+console.log(lowercase[Math.floor(Math.random() * 26)], numbers[Math.floor(Math.random() * 10)], uppercase[Math.floor(Math.random() * 26)], symbols[Math.floor(Math.random() * 26)])
