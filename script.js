@@ -20,3 +20,6 @@ var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "~", "?", "<", ">", ":", ";", "/", " ", ".", ".", "{", "}"]
 
 console.log(numbers, lowercase, uppercase, symbols)
+
+//random number between 1-26
+console.log(Math.floor(Math.random() * 26))
