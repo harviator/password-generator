@@ -39,3 +39,16 @@ console.log(allCharacters[Math.floor(Math.random() * 88)]);
 
 //working on increasing string length
 console.log(allCharacters[Math.floor(Math.random() * 88)].repeat(128));
+
+//created an object called password and giving it properties, which I hope will help me manipulated it easier
+var password = {
+  numbers: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+  lowerCase: ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
+  upperCase: ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+  symbols: ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "~", "?", "<", ">", ":", ";", "/", " ", ".", ".", "{", "}"],
+  length: prompt("Please pick a password length", "Enter a number between 8 and 128")
+}
+
+console.log(password.length)
+
+//sudo code
