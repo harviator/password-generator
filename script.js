@@ -46,9 +46,12 @@ var password = {
   lowerCase: ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
   upperCase: ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
   symbols: ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "~", "?", "<", ">", ":", ";", "/", " ", ".", ".", "{", "}"],
-  length: prompt("Please pick a password length", "Enter a number between 8 and 128")
+  length: window.prompt("Please pick a password length", "Enter a number between 8 and 128")
 }
 
-console.log(password.length)
+if (typeof password.length !== 'number'/* && password.length > 128 && password.length < 8*/) {
+ window.alert ("Must be a NUMBER between 8 and 128");
+}
 
+console.log(password.length);
 //sudo code
