@@ -49,9 +49,11 @@ var password = {
   length: window.prompt("Please pick a password length", "Enter a number between 8 and 128")
 }
 
-if (typeof password.length !== 'number'/* && password.length > 128 && password.length < 8*/) {
- window.alert ("Must be a NUMBER between 8 and 128");
+if (/*password.length <= 7 || password.length >= 129 && */password.length === "number") {
+ window.alert ("Must be a NUMBER and be between 8 and 128");
+} else {
+  console.log(password.length);
 }
 
-console.log(password.length);
+//console.log(password.length);
 //sudo code
