@@ -36,3 +36,6 @@ console.log(allCharacters);
 
 //now I can randomize my new array that includes all my arrays
 console.log(allCharacters[Math.floor(Math.random() * 88)]);
+
+//working on increasing string length
+console.log(allCharacters[Math.floor(Math.random() * 88)].repeat(128));
