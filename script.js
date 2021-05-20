@@ -46,7 +46,7 @@ function generatePassword() {
     }
     if (incldSymbols) {
       password.allCharacters = password.allCharacters.concat(password.symbols)
-    } 
+    }
 
     for (var i=0; i < password.length; i++) {
     password.text += password.allCharacters[Math.floor(Math.random() * password.allCharacters.length)];
@@ -55,3 +55,7 @@ function generatePassword() {
     return password.text;
   }
 }
+
+password.text = password.numbers[Math.floor(Math.random() * numbers.length)];
+
+console.log(password.text);
