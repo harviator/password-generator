@@ -40,7 +40,7 @@ THEN the password is either displayed in an alert or written to the page
 * Finally, I added it all to the skeleton of the JavaScript that was provided
 
 ## Screen Shot
-
+![Getting Started](./assets/image/screen-shot)
 
 ## Link
 https://harviator.github.io/password-generator/
